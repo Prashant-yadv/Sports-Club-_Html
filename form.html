@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		REGISTRATION
+	</title>
+
+	<style>
+		body {
+			background-color: #10c8ed;
+			font-family: cursive;
+			text-align: center;
+			text-shadow: 1px 1px #ff00bf;
+		}
+
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(246, 12, 8, 0.883);
+			text-shadow: 1px 1px #ff00bf;
+		}
+
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+			text-shadow: 1px 1px #ff00dd;
+		}
+
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+			text-shadow: 1px 1px #ff00e1;
+		}
+
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid rgb(232, 235, 238);
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+			text-shadow: 1px 1px #ff008c;
+		}
+
+
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+			text-shadow: 1px 1px #ff00bf;
+		}
+
+		button {
+			background-color: #279dd4;
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: cursive;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+			text-shadow: 1px 1px #ff00ae;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>REGISTRATION FORM</h1>
+
+	<form id="form">
+
+		<div class="form-control">
+			<label for="first-name" id="label-name">
+				First Name:
+			</label>
+
+			<input type="text" id="first-name" placeholder="Enter your First Name" />
+		</div>
+
+		<div class="form-control">
+			<label for="last-name" id="label-phone-no.">
+				Last Name:
+			</label>
+			<input type="text" id="last-name." placeholder="Enter your Last Name" />
+		</div>
+		<div class="form-control">
+			<label for="number" id="label-name">
+				Mobile Number
+			</label>
+
+
+			<input type="text" id="number" placeholder="Enter your Mobile Number" />
+		</div>
+		<div class="form-control">
+			<label for="gender">
+				Gender
+			</label>
+
+
+			<select name="Languages" id="gender">
+				<option value="male">Male</option>
+				<option value="Female">Female</option>
+				<option value="other">Other</option>
+
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-age">
+				E-mail:
+			</label>
+
+
+			<input type="text" id="email" placeholder="Enter your E-mail" />
+		</div>
+
+		<div class="form-control">
+			<label for="password" id="label-age">
+				Password
+			</label>
+
+
+			<input type="text" id="password" placeholder="Enter your Password" />
+		</div>
+		<div class="form-control">
+			<label for="re-enter password" id="label-age">
+				Re-Enter Password
+			</label>
+
+
+			<input type="text" id="re-enter password" placeholder="Enter your Password" />
+		</div>
+
+
+
+
+		<div class="form-control">
+			<label>
+				Would you recommend this to a friend?
+			</label>
+
+			<label for="recommed-1">
+				<input type="radio" id="recommed-1" name="recommed">Yes</input>
+			</label>
+			<label for="recommed-2">
+				<input type="radio" id="recommed-2" name="recommed">No</input>
+			</label>
+			<label for="recommed-3">
+				<input type="radio" id="recommed-3" name="recommed">Maybe</input>
+			</label>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				choose your sports
+			</label>
+
+
+			<select name="Languages" id="Languages">
+				<option value="Cricket">Vollyball</option>
+				<option value="Football">FootBall</option>
+				<option value="Volley ball">Badminton</option>
+				<option value="Basketball">Swimming</option>
+
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label for="comments">
+				Any comments or suggestions
+			</label>
+
+			<textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+		</div>
+
+
+		<button type="submit" value="submit">
+			Submit
+		</button>
+	</form>
+</body>
+</html>
